@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "lib": ["es6", "dom"],
     "module": "commonjs",
     "noImplicitReturns": true,
     "noUnusedLocals": true,

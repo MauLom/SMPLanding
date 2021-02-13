@@ -4,7 +4,8 @@ import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
 
-  {component: MainComponent, path: "main"}
+  {component: MainComponent, path: "main"},
+  {path: '', redirectTo: '/main', pathMatch: 'full'}
 ];
 
 @NgModule({
