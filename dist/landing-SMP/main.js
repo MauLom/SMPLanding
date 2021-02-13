@@ -119,7 +119,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { component: _main_main_component__WEBPACK_IMPORTED_MODULE_1__["MainComponent"], path: "main" }
+    { path: "main", component: _main_main_component__WEBPACK_IMPORTED_MODULE_1__["MainComponent"] },
+    { path: '', redirectTo: '/main', pathMatch: 'full' },
+    { path: '**', component: _main_main_component__WEBPACK_IMPORTED_MODULE_1__["MainComponent"] }
 ];
 class AppRoutingModule {
 }
