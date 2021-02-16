@@ -11,6 +11,7 @@
   },
   "hosting": [
     {
+      "target": "landing-SMP",
       "public": "dist/landing-smp",
       "ignore": [
         "firebase.json",

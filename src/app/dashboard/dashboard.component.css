@@ -1,0 +1,33 @@
+.navToolbar{
+    background-color: #131313;  
+}
+.navToolbar .titleText {
+    color: #fff
+}
+.navToolbar .icon {
+    color: #fff
+}
+.logoMenu{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+  } 
+
+  .test-container {
+    width: 100%;
+    height: 93%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .test-sidenav {
+    padding: 20px;
+  }

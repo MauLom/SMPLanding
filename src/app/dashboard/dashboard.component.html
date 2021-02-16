@@ -1,1 +1,24 @@
-<p>dashboard works!</p>
+<mat-toolbar class="w-100 navToolbar">
+    <button (click)="drawer.toggle()" mat-icon-button class="icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <!-- <span class="titleText">Sociedad Mexicana de Parrilleros   </span> -->
+    <span class="spacer"></span>
+    <img class="logoMenu" src="assets\Logos\SMPLogo.png" alt="">
+</mat-toolbar>
+
+<mat-drawer-container class="test-container" autosize>
+    <mat-drawer #drawer class="test-sidenav" mode="side">
+        <div class="container">
+            <div class="row mt-2">
+                <button mat-flat-button>Mi perfil</button>
+            </div>
+            <div class="row mt-2">
+                <button mat-flat-button>Cursos</button>
+            </div>
+        </div>
+    </mat-drawer>
+    <div>
+        contenido
+    </div>
+</mat-drawer-container>
