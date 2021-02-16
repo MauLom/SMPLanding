@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDXFdWcBvdxAiNfhvwLE0tcK4GttDurVhQ",
+    authDomain: "landing-smp.firebaseapp.com",
+    databaseURL: "https://landing-smp-default-rtdb.firebaseio.com",
+    projectId: "landing-smp",
+    storageBucket: "landing-smp.appspot.com",
+    messagingSenderId: "626193986303",
+    appId: "1:626193986303:web:982bc32e14ce4e9cb052ca",
+    measurementId: "G-RL1ZFHG5B5"
+  }
 };
 
 /*

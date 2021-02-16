@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "landing-smp"
+  },
+  "targets": {
+    "landing-smp": {
+      "hosting": {
+        "landing-SMP": [
+          "landing-smp"
+        ]
+      }
+    }
   }
 }

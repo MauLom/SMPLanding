@@ -1,1 +1,34 @@
-<p>main works!</p>
+<div id="loginPrincipal" class="container h-100">
+  <div class="row align-items-center h-100">
+    <div class="col text-center">
+      <div class="contenedor">
+        <div class="row">
+          <div class="col text-center">
+            <img class="logoPrincipal" src="assets\Logos\SMPLogo.png" alt="">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col text-center">
+            <button mat-raised-button class="btnMain" (click)="openSignIn()">
+              <span class="txt-label">SIGN IN</span>
+            </button>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col text-center">
+            <button mat-raised-button class="btnMain" (click)="openSignUp()">
+              <span class="txt-label">SIGN UP</span>
+            </button>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col text-center">
+            <button mat-raised-button class="btnMain" (click)="openRecoverPassword()">
+              <span class="txt-label">FORGET PASSWORD</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

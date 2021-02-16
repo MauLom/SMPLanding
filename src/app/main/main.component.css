@@ -1,0 +1,45 @@
+.btnMain{
+    width: 15%;
+}
+.btnMain .txt-label{
+    font-size: 12px;
+} 
+
+@media only screen and (max-width:900px){
+    .btnMain{
+        width: 35%;
+    }
+    .btnMain .txt-label{
+        font-size: 8px;
+    } 
+}
+
+@media only screen and (max-width:400px){
+    .btnMain{
+        width: 35%;
+    }
+    .btnMain .txt-label{
+        font-size: 8px;
+    } 
+}
+
+@media only screen and (max-width:300px){
+    .btnMain{
+        width: 40%;
+    }
+    .btnMain .txt-label{
+        font-size: 8px;
+    } 
+}
+
+#loginPrincipal{
+    text-align: center;
+    position: absolute;
+    width:100%;
+    max-width: 100%;
+}
+
+.logoPrincipal{
+    max-width: 300px;
+    max-height: 300px;
+}
